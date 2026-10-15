@@ -1,0 +1,35 @@
+#include <iostream>
+#include <vector>
+#include <map>
+#include <stack>
+#include <queue>
+
+using namespace std;
+
+int main() {
+    vector<int> nums;
+    vector<float> scores;
+    map<string, int> ages;
+    stack<char> letters;
+    queue<double> values;
+    pair<int, float> p;
+
+    nums.push_back(10);
+    nums.push_back(20);
+
+    ages["Alice"] = 25;
+    ages["Bob"] = 30;
+
+    int x = nums[0];
+    float y = scores[1];
+
+    if (x < 100) {
+        cout << x;
+    }
+
+    while (!letters.empty()) {
+        letters.pop();
+    }
+
+    return 0;
+}
